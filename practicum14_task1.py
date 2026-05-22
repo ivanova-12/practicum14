@@ -11,7 +11,3 @@ sorted_words = dict(sorted(words.items(), key=lambda x: x[1], reverse=True))
 for word in sorted_words:
     print(word)
 
-
-
-
-
