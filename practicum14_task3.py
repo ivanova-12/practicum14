@@ -13,9 +13,3 @@ if word in antonyms_dict:
 else:
     print(word)
 
-
-
-
-
-
-
