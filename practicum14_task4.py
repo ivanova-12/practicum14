@@ -19,11 +19,3 @@ for key, value in form_dict.items():
 if flag:
     print(f'форма "{thing}" не определена')
 
-
-
-
-
-
-
-
-
