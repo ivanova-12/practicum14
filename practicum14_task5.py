@@ -12,7 +12,7 @@ for _ in range(n_parent_relations):
 name = input().lower().strip()
 
 
-def count_descendants(ancestor: str):
+def count_descendants(ancestor: str) -> int:
     if ancestor not in relations_dict:
         return 0
     result = 0
@@ -22,16 +22,4 @@ def count_descendants(ancestor: str):
 
 if __name__ == '__main__':
     print(count_descendants(name))
-
-
-
-
-
-
-
-
-
-
-
-
 
