@@ -16,7 +16,3 @@ for word in phrase:
 
 print(translated_phrase.strip())
 
-
-
-
-
